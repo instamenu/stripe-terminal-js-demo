@@ -19,7 +19,7 @@ class App extends Component {
     super(props);
     this.state = {
       status: "requires_initializing", // requires_connecting || reader_registration || workflows
-      backendURL: null,
+      backendURL: "https://poc-stripe-backend.herokuapp.com",
       discoveredReaders: [],
       connectionStatus: "not_connected",
       reader: null,
